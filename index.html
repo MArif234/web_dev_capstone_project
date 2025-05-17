@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reality Reboot</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Particles.js and Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#expect">Expect</a>
+  <a href="#schedule">Schedule</a>
+  <a href="#activity1">Consultation</a>
+  <a href="#activity2">Your Scientist</a>
+  <a href="#activity3">Reality Plan</a>
+  <button id="theme-toggle" class="theme-btn">Toggle Theme</button> <!-- new button -->
+
+</nav>
+
+<header>
+  <h1 id="typed"></h1>
+  <a href="#about"><button class="enter-btn">ENTER</button></a>
+</header>
+
+<section id="about">
+    <div class="glass-card">
+      <h2>About the Event</h2>
+      <p>
+        Ever wonder what it would be like if you pursued a different path? What if you had the possibility of becoming a journalist instead of an accountant? Or what if you had the capability of living in Singapore instead of the United States?
+        <br><br>
+        Well, you do not have to just ponder on these thoughts anymore! Welcome to Reboot Reality, where we offer exclusive parallel timeline consultations to help you discover what the “what ifs” of your life could really mean for a week.
+        <br><br>
+        Feeling stuck in the loophole of life? Let’s work to match you with an parallel universe to see what fits you best.
+        <br><br>
+        Through our pop-up event, you will have the chance to go through a free personalized session, where we will work to discover which consultation series would best help us discover your ideal parallel universe. Whether it is swapping careers, timelines, or a lifestyle, we’re here to give you a temporary leap into a reality better for you thanks to quantum physics.
+        <br><br>
+        Best of all, you do not have to fret about monetary costs. You will be paying with your soul (joking, joking…mostly).
+      </p>
+    </div>
+  </section>
+  
+
+  <section id="expect">
+    <div class="glass-card">
+      <h2>What to Expect</h2>
+
+  
+      <p>
+        Past attendees have been dreamers who did not have the chance to deliver, the overthinkers that will never be satisfied with their current reality, and the people suffering from insomnia, wondering whether they truly chose the right path.
+      </p>
+  
+      <h3>Examples of Past Clients:</h3>
+      <ul>
+        <li>A burnt-out professional craving a taste for a different career.</li>
+        <li>Someone who made a series of terrible decisions and needs a real-life ctrl + z button.</li>
+        <li>A nerd who just needs to confirm that alternate realities do indeed exist (his PhD thesis was not for nothing, yay!).</li>
+      </ul>
+  
+      <h3>Payment Options:</h3>
+      <ul>
+        <li>Three of your deepest, darkest secrets.</li>
+        <li>Share the top 3 most embarrassing moments of your life.</li>
+        <li>The theatrical grovel (you must convince us in the most theatrical way possible that you need to enter an alternate reality).</li>
+        <li>You must guess correctly where you will be in 5 years (don’t worry, we know the answer 😉).</li>
+      </ul>
+  
+    </div>
+  </section>
+
+  <section id="rsvp" class="rsvp-section">
+    <div class="rsvp-container">
+      <!-- Left Side - Description -->
+      <div class="rsvp-left">
+        <h2>Reality Reboot RSVP</h2>
+        <p>Ready to glitch reality? Submit your RSVP to start your journey into a parallel universe. Secure your spot before this timeline collapses without you. 😉</p>
+      </div>
+  
+      <!-- Right Side - RSVP List + Form -->
+      <div class="rsvp-right">
+        <h3>Current Participants</h3>
+        <ul id="participant-list">
+          <!-- New participants will appear here -->
+        </ul>
+  
+        <form id="rsvpForm">
+          <input type="text" id="name" placeholder="Enter your name" required>
+          <input type="text" id="email" placeholder="Enter your email" required>
+          <input type="text" id="favoriteUniverse" placeholder="Dream reality (optional)">
+          <button type="submit" class="theme-btn">Submit RSVP</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+  <section id="schedule">
+    <div class="glass-card">
+      <h2>Reality Reboot Experience Timeline</h2>
+  
+      <p class="schedule-intro hidden">
+        Welcome to your Reality Reboot journey. Over the next few months, you’ll rethink your life choices, rewire your destiny, and possibly question your sanity (all very normal here).
+        This schedule outlines every critical phase: from your free consultation to designing your alternate reality blueprint through the Reschedule Plan.
+        You'll also undergo physical training — nothing extreme, just enough so you don't disintegrate mid-jump into your alternate reality.
+        After two months of prepping your mind <em>and</em> body, you’ll finally step into your chosen reality for a full day to see if it feels like home.
+        <br><br>
+        <strong>Spoiler: You won't want to come back.</strong>
+      </p>
+  
+      <div class="timeline-step hidden">
+        <h3>🔵 Intro Presentation</h3>
+        <p>Sit back, relax, and let us ruin everything you thought you knew about your existence.</p>
+      </div>
+  
+      <div class="timeline-step hidden">
+        <h3>🛸 Free Consultation</h3>
+        <p>Think of it like therapy, but with more timelines and less coping mechanisms.</p>
+      </div>
+  
+      <div class="timeline-step hidden">
+        <h3>👩‍🔬 Meet Your Assigned Scientist</h3>
+        <p>Meet your Quantum Architect: trained in 7 dimensions, socially awkward in all of them.</p>
+      </div>
+  
+      <div class="timeline-step hidden">
+        <h3>🗓️ Reality Reschedule Plan</h3>
+        <p>You’ll schedule five follow-up sessions to carefully reconstruct your life. (Some assembly required. Instructions not included.)</p>
+      </div>
+  
+      <div class="timeline-step hidden">
+        <h3>🍛 Food & Rebooter Mingling</h3>
+        <p>Food will be served.
+          Dreams will be discussed.
+          You might accidentally join a conspiracy theory group about alternate dimensions. It happens.</p>
+      </div>
+  
+    </div>
+  </section>
+  
+
+<section id="activity1">
+  <div class="glass-card">
+    <h2>Consultation Session</h2>
+    
+    <p>
+      First things first: let's troubleshoot your current existence.<br><br>
+
+      During your consultation, we’ll dive into your life’s plot twists, career dilemmas, friendship dilemmas, existential subplots, and whether you really needed to binge watch that TV show.<br><br>
+
+      Then, you'll be assigned a Quantum Architect with excellent credentials and a questionable caffeine addiction.<br><br>
+
+      To ensure maximum honesty, you'll be given a mild truth serum (known side effects: speaking your mind, rethinking life choices, and occasional spontaneous wisdom).<br><br>
+
+      The real question is:<br>
+      Are you ready for a brand new universe...<br>
+      or do you just need a really good nap and a hug?
+    </p>
+    <p style="font-size: 0.9rem; color: #999; margin-top: 20px;">
+      Disclaimer: Truth serum results may include unexpected life decisions. Proceed with reckless optimism.
+    </p>
+  </div>
+</section>
+
+<section id="activity2">
+  <div class="glass-card">
+    <h2>Meet Your Assigned Scientist</h2>
+    <img src="img/portal.png" alt="Multiverse Portal" class="consultation-image">
+    <p>
+      After your truth serum-fueled consultation, we’ll assign you a highly trained (and questionably socialized) Quantum Architect.<br><br>
+      They have a PhD in Interdimensional Engineering, a minor in Existential Crisis Management, and a major in Being Slightly Socially Awkward.<br><br>
+      Over the course of five intensive sessions, you’ll collaborate to stitch together the perfect alternate reality (hopefully with fewer bad decisions this time).<br><br>
+      And because jumping timelines isn’t exactly a low-impact sport, you also are required to join the Interdimensional Physical Training Program™️. Don't worry, we won't make you do burpees, just enough training to make sure you don't fall through the void.<br><br>
+      This isn’t just a glow-up.<br>
+      It’s a reality reboot.
+    </p>
+    </div>
+</section>
+
+<section id="activity3">
+  <div class="glass-card">
+    <h2>Reality Reschedule Plan</h2>
+    <img src="img/glitch.png" alt="Reality Reschedule Portal" class="reschedule-image">
+    <p>
+      Survived your consultation? Partnered with a Quantum Architect? Feeling only mildly overwhelmed? Perfect.<br><br>
+
+      Welcome to the Reality Reschedule Plan™️. Here's what’s ahead:<br><br>
+
+      <strong>Session 1: Timeline Diagnostics</strong><br>
+      We review your life so far: wins, weird twists, and those "what was I thinking?" moments.<br><br>
+
+      <strong>Session 2: Desire Mapping</strong><br>
+      Dream out loud. No dream too small. No judgment here.Let's work to turn your dreams into reality.<br><br>
+
+      <strong>Session 3: Reality Engineering</strong><br>
+      You and your Quantum Architect sketch the upgrades: new dreams, new pathways, maybe even a cooler catchphrase.<br><br>
+
+      <strong>Session 4: Quantum Troubleshooting</strong><br>
+      We troubleshoot future glitches before they become time travel memes.<br><br>
+
+      <strong>Session 5: Final Technical Calibration</strong><br>
+      Finalize your blueprint and get ready to launch. Future you is already writing thank-you notes.<br><br>
+    
+      Meanwhile, <strong>Physical Training Sessions</strong> are required on the side to prep your body for the timeline transition because if you trip mid-jump, you might end up in a reality where taxes are even worse.<br><br>
+
+      Reality Reboot isn’t just a glow-up.  
+      It’s going to flip your reality in ways you didn't think were possible. Are you ready?
+    </p>
+    <div class="progress-bar-container">
+      <div class="progress-bar"></div>
+    </div>
+    
+    </div>
+    
+</section>
+
+<footer>
+  © 2025 Reality Reboot | Welcome to the New World
+</footer>
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <h2 id="modal-message"></h2> <!-- Message will appear here -->
+    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3l1ZzcxdWcwOWc4NmhnZjE4N3BmbncwMG41aDAxYnV2dW9peDl1YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3og0IFrHkIglEOg8Ba/giphy.gif" alt="Portal Animation" id="modal-image">
+    <button id="close-modal-btn" class="theme-btn">Close</button>
+  </div>
+</div>
+<!-- Your own JS file -->
+<script src="index.js"></script>
+
+</body>
+</html>
+
