@@ -34,7 +34,7 @@ No frameworks. No backend. Just pure vibes and a responsive layout.
 
 ## 🚀 Live Site
 
-Explore the full experience here  
+Explore the full experience here: 
 **[Reality Reboot Live Website](https://marif234.github.io/web_dev_capstone_project/)**
 
 
